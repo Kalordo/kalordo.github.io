@@ -36,7 +36,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     position: sticky;
     top: 0;
@@ -334,6 +334,10 @@ footer a {
         gap: 1rem;
     }
     .forma-icons {
+        padding-left: 0rem;
+    }
+    .forma-dev {
+        margin-left: 1rem;
         padding-left: 1rem;
     }
 }
