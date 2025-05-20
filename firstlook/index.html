@@ -17,16 +17,23 @@
         <h1>< kalordo /></h1>
         <nav>
             <ul class="nav-bar">
-                <li> Accueil </li>
-                <li> Experiences </li>
-                <li> Projets </li>
-                <li> Contact </li>
+                <li> <a href="#accueil">Accueil</a> </li>
+                <li> <a href="#experiences">Experiences</a> </li>
+                <li> <a href="#projets">Projets</a> </li>
+                <li> <a href="#contact">Contact</a> </li>
             </ul>
         </nav>
 
     </header>
 
-    <main>
+    <main id="accueil">
+
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+
         <section class="accueil">
 
             <h2 class="title-accueil"> Hello, je m'appelle </h2>
@@ -42,37 +49,41 @@
 
         </section>
 
-        <section class="expe">
+        <section class="expe" id="experiences">
 
             <h2> Mon expérience </h2>
-            <div class="forma-dev">
-                <h3> Formation développeur web et mobile </h3>
-                <p class="expe-ecole"> 3W Academy </p>
-                <p> De mars 2025 à maintenant </p>
-                <ul class="forma-icons">
-                    <li> <i class="fa-brands fa-html5" style="color: #df5920;"></i> </li>
-                    <li> <i class="fa-brands fa-css3-alt" style="color: #2f96e4;"></i> </li>
-                    <li> <i class="fa-brands fa-square-js" style="color: #e7b80d;"></i> </li>
-                    <li> <i class="fa-brands fa-react" style="color: #74C0FC;"></i> </li>
-                    <li> <i class="fa-brands fa-php" style="color: #B197FC;"></i> </li>
-                    <li> <i class="fa-brands fa-wordpress" style="color: #406fbf;"></i> </li>
-                </ul>
-            </div>
+            <a href="https://3wacademy.fr" target="_blank">
+                <div class="forma-dev">
+                    <h3> Formation développeur web et mobile </h3>
+                    <p class="expe-ecole"> <img src="./images/logo-3wa.png" alt="logo de la 3W Academy"> 3W Academy </p>
+                    <p class="date"> De mars 2025 à maintenant </p>
+                    <ul class="forma-icons">
+                        <li> <i class="fa-brands fa-html5" style="color: #df5920;"></i> </li>
+                        <li> <i class="fa-brands fa-css3-alt" style="color: #2f96e4;"></i> </li>
+                        <li> <i class="fa-brands fa-square-js" style="color: #e7b80d;"></i> </li>
+                        <li> <i class="fa-brands fa-react" style="color: #74C0FC;"></i> </li>
+                        <li> <i class="fa-brands fa-php" style="color: #B197FC;"></i> </li>
+                        <li> <i class="fa-brands fa-wordpress" style="color: #406fbf;"></i> </li>
+                        <li> <i class="fa-solid fa-database" style="color: #6131f2;"></i> </li>
+                        <li> <i class="fa-brands fa-git-alt" style="color: #e3630d;"></i> </li>
+                    </ul>
+                </div>
+            </a>
         </section>
 
-        <section>
+        <section class="projets" id="projets">
 
             <h2> Quelques projets </h2>
 
-            <p> ... </p>
+            <p> A venir très bientôt </p>
 
         </section>
 
-        <section class="contact">
+        <section class="contact" id="contact">
 
             <h2 class="title-contact"> Me contacter </h2>
             <p class="contact-p"> Si vous avez un projet pour moi vous pouvez m'envoyer un mail &#x1F60A; </p>
-            <div class="button-contact"> <i class="fa-regular fa-envelope" style="color: #e9ecf2;"></i> EMAIL </div>
+            <div class="button-contact"> <a href="mailto:yohann.leperson@gmail.com" target="_blank"><i class="fa-regular fa-envelope" style="color: #D48647;"></i> EMAIL</a> </div>
 
         </section>
 
@@ -82,7 +93,7 @@
     <footer>
 
         <p> @copyright 2025</p>
-        <p> Créer par Yohann Le Person </p>
+        <p> Créer par <a href="#accueil">Yohann Le Person</a> </p>
 
     </footer>
 
