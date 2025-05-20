@@ -123,6 +123,14 @@ main .accueil h2 {
     font-size: 2rem;
 }
 
+.liens-main li {
+    transition: 150ms;
+}
+
+.liens-main li:hover {
+    transform: scale(1.3);
+}
+
 .button-cv {
     display: inline-block;
     border: 2px solid #D48647;
